@@ -117,7 +117,9 @@ a {
   width: min(1160px, calc(100% - 36px));
   margin: 0 auto;
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
   align-items: end;
+  gap: 42px;
   padding: 76px 0 64px;
 }
 
@@ -161,6 +163,38 @@ h1 {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 28px;
+}
+
+.hero-food-card {
+  margin: 0 0 10px;
+  align-self: end;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.36);
+  animation: riseIn 720ms 160ms ease both;
+}
+
+.hero-food-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-food-card figcaption {
+  padding: 18px;
+  color: rgba(255, 255, 255, 0.78);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.hero-food-card figcaption strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 1.02rem;
 }
 
 .hero-strip {
@@ -478,7 +512,17 @@ main {
   }
 
   .hero-content {
+    grid-template-columns: 1fr;
     padding: 42px 0 76px;
+  }
+
+  .hero-food-card {
+    width: min(100%, 420px);
+    margin: 10px 0 0;
+  }
+
+  .hero-food-card img {
+    aspect-ratio: 16 / 10;
   }
 
   .hero-strip,
