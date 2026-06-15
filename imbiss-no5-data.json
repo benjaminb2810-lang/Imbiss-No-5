@@ -1,0 +1,67 @@
+{
+  "business": {
+    "name": "Imbiss No 5",
+    "tagline": "Der ehrliche Mittagsimbiss an der Implerstrasse",
+    "address": "Thalkirchner Str. 126, 81371 Muenchen",
+    "nearby": "U-Bahnhof Implerstrasse",
+    "phone": "+49 1525 9725836",
+    "priceRange": "1-10 EUR",
+    "rating": {
+      "source": "Google",
+      "score": 4.8,
+      "count": 38
+    },
+    "features": ["Zum Mitnehmen", "Mittagessen", "Keine Lieferung", "Preiswert", "Renovierter Laden"]
+  },
+  "hours": [
+    { "day": "Montag", "time": "11:30-15:00" },
+    { "day": "Dienstag", "time": "11:30-15:00" },
+    { "day": "Mittwoch", "time": "11:30-15:00" },
+    { "day": "Donnerstag", "time": "11:30-15:00" },
+    { "day": "Freitag", "time": "11:30-15:00" },
+    { "day": "Samstag", "time": "Geschlossen" },
+    { "day": "Sonntag", "time": "Geschlossen" }
+  ],
+  "menuHighlights": [
+    {
+      "name": "Currywurst",
+      "description": "Der Klassiker des Ladens: heiss, herzhaft und mit viel Sauce."
+    },
+    {
+      "name": "Schaschlik",
+      "description": "Von Gaesten besonders empfohlen, perfekt fuer die Mittagspause."
+    },
+    {
+      "name": "Bratwurst & Semmel",
+      "description": "Schnell auf die Hand, frisch vom Grill und unkompliziert gut."
+    },
+    {
+      "name": "Pommes",
+      "description": "Knusprige Beilage fuer den kurzen Stopp in Sendling."
+    }
+  ],
+  "reviews": [
+    {
+      "author": "Blitzableiter",
+      "source": "Google via Restaurant Guru",
+      "text": "Tolle Wurst, gute Pommes und vor allem eine wahnsinnig leckere Sosse, und dazu noch faire Preise.",
+      "rating": 5
+    },
+    {
+      "author": "Peter Gilles",
+      "source": "Google via Restaurant Guru",
+      "text": "Das Essen schmeckt sehr lecker. Die Currywurst und das Schaschlik sind sehr zu empfehlen. Klare Empfehlung!",
+      "rating": 5
+    }
+  ],
+  "sources": [
+    {
+      "label": "Restaurant Guru: Imbiss No 5",
+      "url": "https://de.restaurantguru.com/Imbiss-No-5-Munich"
+    },
+    {
+      "label": "Google Maps Suche",
+      "url": "https://www.google.com/maps/search/?api=1&query=Imbiss%20No%205%20Thalkirchner%20Str.%20126%20Muenchen"
+    }
+  ]
+}
