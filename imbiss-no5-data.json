@@ -63,5 +63,10 @@
       "label": "Google Maps Suche",
       "url": "https://www.google.com/maps/search/?api=1&query=Imbiss%20No%205%20Thalkirchner%20Str.%20126%20Muenchen"
     }
-  ]
+  ],
+  "legal": {
+    "imprintUrl": "imbiss-no5-impressum.html",
+    "privacyUrl": "imbiss-no5-datenschutz.html",
+    "cookieNotice": "Diese Website nutzt technisch notwendige Speicherung, um die Cookie-Entscheidung zu merken, und bindet Google Maps ein."
+  }
 }
